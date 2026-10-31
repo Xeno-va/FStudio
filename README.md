@@ -73,3 +73,7 @@ put its IP in `app/lasers.txt`.
   settings.
 - `app/profiles/fullspectrum-h/`: presets. The ones included are starting points for a 40 W
   tube, gathered from forum reports. Test on scrap first.
+
+## License
+
+MIT. See LICENSE. Provided as is, with no warranty: you run it on your own laser at your own risk.
