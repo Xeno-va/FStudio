@@ -1,0 +1,6 @@
+svgelements
+shapely
+numpy
+pillow
+fonttools
+pyclipper

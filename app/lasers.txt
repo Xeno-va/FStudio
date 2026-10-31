@@ -1,0 +1,9 @@
+# One block per laser. "kind" picks the driver; "address" is how to reach it.
+# Edit freely; the laser panel reads this file each time it opens. After renaming or
+# adding a laser, run app/inkscape/make_inx.py and install.sh again for its menu items.
+
+[Full Spectrum H-Series]
+kind = fullspectrum
+address = auto          # found by network broadcast; or put its IP here
+bed = 508 x 305 mm      # 20 x 12 in
+power_ceiling = 100     # % of the tube's maximum; every color's power is a share of this

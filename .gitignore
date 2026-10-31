@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+app/logs/
+app/choices/
+app/jobs/
+app/lasers/*/*.ini

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Full Spectrum H-Series (Gen5 Hobby, 20 x 12 in): motion limits and settings the sender needs,
+     in the layout of the laser's own model file. Edit to match your machine. -->
+<Machine>
+  <Config>
+    <LaserModel>Hobby 20x12</LaserModel>
+    <JogAcceleration><v>200000</v><v>50000</v><v>600000</v><v>3500</v><v>3500</v><v>3500</v></JogAcceleration>
+    <JogMaxVelocity><v>16</v><v>16</v><v>2048</v><v>800</v><v>800</v><v>2048</v></JogMaxVelocity>
+    <EngraveAcceleration><v>200000</v><v>50000</v><v>600000</v></EngraveAcceleration>
+    <EngraveMaxVelocity><v>800</v><v>800</v><v>2048</v></EngraveMaxVelocity>
+    <VectorAcceleration><v>100000</v><v>25000</v><v>20000</v><v>20000</v><v>20000</v><v>20000</v></VectorAcceleration>
+    <VectorMaxVelocity><v>1000</v><v>1000</v><v>1000</v><v>1000</v><v>1000</v><v>1000</v></VectorMaxVelocity>
+    <RapidVectorMoveAcc><v>100000</v><v>25000</v><v>600000</v></RapidVectorMoveAcc>
+    <RapidVectorMoveTopSpeed><v>12645</v><v>6322</v></RapidVectorMoveTopSpeed>
+    <FlipLaserPWMPower>1</FlipLaserPWMPower>
+    <FlipLaserOutput>0</FlipLaserOutput>
+    <FlipAxes><v>0</v><v>0</v><v>0</v><v>0</v><v>0</v><v>0</v></FlipAxes>
+    <FlipHomeDirection><v>1</v><v>0</v><v>0</v><v>0</v><v>0</v><v>0</v></FlipHomeDirection>
+    <HomeDirection>1</HomeDirection>
+    <MaxSteps><v>250</v><v>500</v><v>500</v><v>1000</v><v>1000</v><v>1000</v></MaxSteps>
+    <TableSize><v>20000</v><v>12000</v><v>30000</v><v>1000</v><v>1000</v><v>1000</v></TableSize>
+    <LimitContCondition><v>0</v><v>0</v><v>0</v><v>0</v><v>0</v><v>0</v></LimitContCondition>
+    <StepsPerInch><v>1000</v><v>1000</v><v>1000</v><v>1000</v><v>1000</v><v>1000</v></StepsPerInch>
+    <DPIvalue><v>1000</v><v>1000</v></DPIvalue>
+    <LaserPowerMax>180</LaserPowerMax>
+  </Config>
+</Machine>

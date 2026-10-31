@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Full Spectrum H-Series direct control</name>
+  <id>fstudio.control.full-spectrum-h-series</id>
+  <param name="laser" type="string" gui-hidden="true">Full Spectrum H-Series</param>
+  <param name="control" type="bool" gui-hidden="true">true</param>
+  <effect needs-live-preview="false">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="FStudio"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">laser_send.py</command>
+  </script>
+</inkscape-extension>

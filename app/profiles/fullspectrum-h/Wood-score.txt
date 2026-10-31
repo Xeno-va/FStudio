@@ -1,0 +1,7 @@
+# Starting point for a 40 W H-Series (Rockler/Full Spectrum list the H-Series at 40 W; checked 2026-10-31).
+# From Full Spectrum forum reports for 40 W machines and the H-Series manual (500 dpi default).
+# Speed and power are % of the laser's maximum. UNVERIFIED on this laser: run a test on scrap first.
+mode = vector
+power = 15
+speed = 60
+passes = 1

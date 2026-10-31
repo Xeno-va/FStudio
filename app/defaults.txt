@@ -1,0 +1,46 @@
+# Laser defaults: what each color means, how it is drawn, and how the laser panel
+# fills in that color's row the first time it sees it. Edit freely.
+#
+# Inkscape's Laser menu uses this file: "Set up page for laser" sets the page to the
+# laser's bed and adds these colors as swatches; "Mark as Cut / Score / Engrave"
+# restyles the selection.
+#
+# width is the outline width in mm (0.0254 mm = 0.001 in, a hairline as in Epilog).
+# A role with fill = yes is drawn as a filled shape with no outline.
+
+[Cut]
+color = #ff0000
+width = 0.0254
+fill = no
+
+[Score]
+color = #0000ff
+width = 0.0254
+fill = no
+
+[Engrave]
+color = #000000
+width = 0
+fill = yes
+
+# Starting settings per laser kind, by role. The panel uses these for a color it has
+# not seen in this drawing before; anything changed in the panel is remembered.
+
+[fullspectrum Cut]
+mode = cut
+power = 60
+speed = 15
+passes = 1
+
+[fullspectrum Score]
+mode = cut
+power = 15
+speed = 60
+passes = 1
+
+[fullspectrum Engrave]
+mode = engrave
+power = 30
+speed = 80
+passes = 1
+dpi = 500
